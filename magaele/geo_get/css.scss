@@ -1,0 +1,12 @@
+// @import "../core/core/mixins";
+// @import "../core/core/variables";
+
+$classname: 'geo_get';
+
+.#{$classname} {
+    .map_container{
+        width: 400px;
+        height: 400px;
+        background: #cccccc;
+    }
+}

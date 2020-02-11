@@ -1,0 +1,70 @@
+/**
+ * Import core mixins, variables, or others
+ */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'date_bar';
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    // style on phone device
+    width: 90px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 667px; 
+    .bar_content{
+        background-color:#fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px rgba(155,155,155,0.8);
+        height: 100%;
+        ul{
+            padding: 24px 0px 24px 0px;
+            li{
+                display: block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 12pt;
+                background-color: #f4f4f4;
+                color: #999;
+                border-radius: 20px;
+                margin: 0px auto;
+                margin-bottom: 10px;
+                cursor: pointer;
+                list-style: none;
+            }
+            li.active{
+                background-color: #E10500;
+                color: #fff;
+            }
+            li.add{
+                background-color: #FFF;
+                color: #DDD;
+                border: 2px solid #DDD;
+                // padding-top: 8px;
+                box-sizing: border-box;
+                span{
+                    line-height: 34px;
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}

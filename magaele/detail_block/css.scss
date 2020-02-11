@@ -1,0 +1,123 @@
+/**
+ * Import core mixins, variables, or others
+ */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'detail_block';
+// 編譯後的CSS所在位置，如果你的CSS有需要讀圖檔或字型，請在URL字串前加上'#{$resource-path}'
+$resource-path: resource-path($classname);
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    // style on phone device
+    display: block;
+    &.detailBlock{
+        // display: none;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        // width: 100%;
+        width: 442.54px;//這個是假寬度
+        height: 665px;
+        background-color: #FFF;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(155,155,155,0.8);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(155,155,155,0.8);
+        box-shadow: 0px 0px 5px 0px rgba(155,155,155,0.8);
+        overflow: hidden;
+        .favoriteBtn{
+            position: absolute;
+            right: 78px;
+            top: 177px;
+            z-index: 5;
+            background: url('/magaele/#{$classname}/img/poi_like_c@2x.png') no-repeat;
+            background-size: 48px 48px;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+        }
+        .closeBtn{
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            background: url('/magaele/#{$classname}/img/close_btn@2x.png') no-repeat;
+            background-size: 41px 41px;
+            width: 41px;
+            height: 41px;
+            z-index: 100;
+            cursor: pointer;
+        }
+        .carousel {
+            position: relative;
+            .carousel-inner{
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+            }
+            .item{
+                height: 200px;
+                overflow: hidden;
+                border-radius: 10px 10px 0px 0px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .content{
+            position: relative;
+            padding: 20px;
+            color: #000;
+            height: 410px;
+            overflow-y: auto;
+            h1{
+                font-size: 20px;
+                margin: 0px 0px 12px 0px;
+                font-weight: 400;
+            }
+            .guideType {
+                select{
+                    font-size: 14px;
+                    height: 28px;
+                    margin: 0px 0px 12px 0px;
+                    border: 1px solid #CCC;
+                    background-color: #FFF;
+                    min-width: 80px;
+                }
+            }
+            .itemDetail{
+                margin-top: 12px;
+            }
+            .guideInfo{
+                margin-top: 20px;
+                color: #4A4A4A;
+                .guideTitle{
+                    position: relative;
+                    left: -20px;
+                    display: inline-block;
+                    margin-bottom: 12px;
+                    background-color: #E10500;
+                    color: #FFF;
+                    padding: 6px 14px;
+                    font-weight: bold;
+                }
+                .information{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}

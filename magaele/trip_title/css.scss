@@ -1,0 +1,83 @@
+/**
+ * Import core mixins, variables, or others
+ */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'trip_title';
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    // style on phone device
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    .dayNum{
+        position: absolute;
+        left: 0px;
+        top: 6px;
+        display: block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 12pt;
+        background-color: #ff6633;
+        color: #FFF;
+        border-radius: 18px;
+        i.flight{
+            float: left;
+            margin-right: 10px;
+            display: block;
+            width: 35px;
+            height: 35px;
+            background-image: url('/magaele/#{$classname}/img/ic_triplist_flight@2x.png');
+            background-repeat: no-repeat;
+            background-size: 35px 35px;
+        }
+    }
+    .dayNum.lion{
+        background-color: #E10500;
+    }
+    .dayTitle{
+        font-size: 14pt;
+    }
+    .cityTitle{
+        line-height: 48px;
+        // margin-bottom: 15px;
+        // padding-bottom: 10px;
+        // border-bottom: 1px solid #EEE;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .summary{
+        font-size: 13pt;
+        min-height: 24px;
+    }
+    // @media screen and (min-width: $screen-tablet) {
+    //     // style on tablet device
+    // }
+    // @media screen and (min-width: $screen-desktop) {
+    //     // style on desktop device
+    // }
+    // @media screen and (min-width: $screen-lg-desktop) {
+    //     // style on desktop device
+    // }
+
+    // &_modifier {
+        
+    // }
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}

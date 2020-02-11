@@ -1,0 +1,169 @@
+/**
+ * Import core mixins, variables, or others
+ */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'poi_card';
+// 編譯後的CSS所在位置，如果你的CSS有需要讀圖檔或字型，請在URL字串前加上'#{$resource-path}'
+$resource-path: resource-path($classname);
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    //icon區
+    i.lion{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    i.lion.clock-black{
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        background: url('/magaele/#{$classname}/img/ic_time_2@2x.png') center center no-repeat;
+        background-size: 20px 20px;
+    }
+    i.lion.location{
+        top: 5px;
+        width: 20px;
+        height: 20px;
+        background: url('/magaele/#{$classname}/img/ic_location@2x.png') center center no-repeat;
+        background-size: 20px 20px
+    }
+    i.lion.plus-black{
+        top: 3px;
+        width: 16px;
+        height: 16px;
+        background: url('/magaele/#{$classname}/img/ic_add@2x.png') center center no-repeat;
+        background-size: 16px 16px;
+    }
+    i.lion.detail{
+        top: 4px;
+        width: 16px;
+        height: 16px;
+        background:  url('/magaele/#{$classname}/img/ic_poi_description@2x.png') center center no-repeat;
+        background-size: 16px 16px;
+    }
+    //icon區 end
+    // style on phone device
+    padding: 0px 9px 0px 9px;
+    width: 206.6px;//這裡的是假寬度喲
+    float: left;
+    display: block;
+    //區分hotel小卡和POI小卡的title樣式
+    .singleItem:not([data-type=hotel]){
+        .title{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    .singleItem{
+        width: 100%;
+        position: relative;
+        border: 1px solid #CCC;
+        margin-bottom: 15px;
+        .thumb{
+            width: 100%;
+            height: 146px;
+            overflow: hidden;
+            & >img{
+                width: 100%;
+                min-height: 146px;
+            }
+        }
+        .favoriteBtn{
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            width: 27px;
+            height: 24px;
+            background: url('/magaele/#{$classname}/img/ic_like.png') left top no-repeat;
+            cursor: pointer;
+        }
+        .favoriteBtn:hover, .favoriteBtn.active{
+            background: url('/magaele/#{$classname}/img/ic_liked.png') left top no-repeat;
+        }
+        .title{
+            width: 100%;
+            height: 25px;
+            padding: 0px 8px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #000;
+        }
+        .guideType{
+            width: 100%;
+            padding: 0px 8px;
+            margin-top: 10px;
+            & >select{
+                border: 1px solid #CCC;
+                width: 100%;
+                background-color: #FFF;
+                height: 25px;
+            }
+        }
+        .meta{
+            width: 100%;
+            padding: 0px 8px;
+            margin-bottom: 15px;
+            color: #000;
+            font-size: 14px;
+            & > span:first-child{
+                display: inline-block;
+                width: 50%;
+                line-height: 16px;
+                cursor: pointer;
+            }
+            & > span:last-child{
+                text-align: right;
+                display: inline-block;
+                width: 47%;
+                cursor: pointer;
+            }
+        }
+        .toolBtn{
+            width: 100%;
+            border-top: 1px solid #CCC;
+            & > div{
+                display: inline-block;
+                width: 48%;
+                text-align: center;
+                color: #000;
+                padding: 5px 0px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            & > div:first-child{
+                border-right: 1px solid #CCC;
+            }
+        }
+    }
+    // @media screen and (min-width: $screen-tablet) {
+    //     // style on tablet device
+    // }
+    // @media screen and (min-width: $screen-desktop) {
+    //     // style on desktop device
+    // }
+    // @media screen and (min-width: $screen-lg-desktop) {
+    //     // style on desktop device
+    // }
+
+    // &_modifier {
+        
+    // }
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}

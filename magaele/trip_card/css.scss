@@ -1,0 +1,250 @@
+/**
+ * Import core mixins, variables, or others
+ */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'trip_card';
+// 編譯後的CSS所在位置，如果你的CSS有需要讀圖檔或字型，請在URL字串前加上'#{$resource-path}'
+$resource-path: resource-path($classname);
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    //icon區
+    i.lion{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    i.lion.location{
+        top: 5px;
+        width: 20px;
+        height: 20px;
+        background: url('/magaele/#{$classname}/img/ic_location@2x.png') center center no-repeat;
+        background-size: 20px 20px;
+    }
+    i.lion.map{
+        top: 2px;
+        width: 16px;
+        height: 13px;
+        background: url('/magaele/#{$classname}/img/ic_map@2x.png') center center no-repeat;
+        background-size: 16px 13px;
+    }
+    i.lion.detail{
+        top: 4px;
+        width: 16px;
+        height: 16px;
+        background: url('/magaele/#{$classname}/img/ic_poi_description@2x.png') center center no-repeat;
+        background-size: 16px 16px;
+    }
+    i.lion.clock{
+        top: 3px;
+        width: 15px;
+        height: 16px;
+        background: url('/magaele/#{$classname}/img/ic_time@2x.png') center center no-repeat;
+        background-size: 15px 16px;
+    }
+    i.lion.bag{
+        top: 4px;
+        width: 18px;
+        height: 17px;
+        background: url('/magaele/#{$classname}/img/ic_travel@2x.png') center center no-repeat;
+        background-size: 18px 17px;
+    }
+    //icon區 end
+    // style on phone device
+    &.poi{
+        display: block;
+        position: relative;
+        width: 355px;
+        padding-left: 55px;
+        background-color: #FFF;
+        &:first-child .timeline .start{
+            input{
+                width: 45px;
+                height: 23px;
+                position: relative;
+                left: -3px;
+            }
+        }
+        .timeline{
+            width: 60px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background: url('/magaele/#{$classname}/img/time_line.png') 20px center no-repeat;
+            height: 100%;
+            .start{
+                background-color: #FFF;
+                display: block;
+                font-size: 11pt;
+                position: absolute;
+                top: 0px;
+                left: 3px;
+            }
+            .end{
+                background-color: #FFF;
+                display: block;
+                font-size: 11pt;
+                position: absolute;
+                bottom: 0px;
+                left: 3px;
+                text-align: center;
+            }
+        }
+        .itemBlock{
+            position: relative;
+            border: 1px solid #EEE;
+            border-radius: 5px;
+            padding: 8px 4px 8px 70px;
+            margin-bottom: 5px;
+            a{
+                color: #444;
+                text-decoration: none;
+            }
+            .itemThumbnail{
+                position: absolute;
+                left: 8px;
+                top: 25px;
+                width: 50px;
+                height: 50px;
+                overflow: hidden;
+                &>img{
+                    width: 100%;
+                    min-height: 50px;
+                }
+            }
+            .itemInfo{
+                .title{
+                    font-size: 12pt;
+                    margin-bottom: 10px;
+                }
+                .detailBtn{
+                    ul{
+                        display: inline-block;
+                        padding: 0px;
+                        li{
+                            display: inline-block;
+                            padding: 0px;
+                            margin-right: 14px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .time{
+                    color: #333;
+                    font-size: 10pt;
+                    display: inline-block;
+                    margin-right: 12px;
+                    &>input{
+                        height: 20px;
+                        width: 40px;
+                        margin-left: 4px;
+                    }
+                }
+                .guideType{
+                    display: inline-block;
+                    &>select{
+                        height: 20px;
+                        width: 120px;
+                        border: 1px solid #CCC;
+                        border-radius: 0px;
+                        background-color: #FFF;
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+    }
+    &.airplane{
+        position: relative;
+        width: 355px;
+        padding-left: 55px;
+        background-color: #FFF;
+        .timeline{
+            width: 60px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background: url('/magaele/#{$classname}/img/time_line.png') 20px center no-repeat;
+            height: 100%;
+            .start{
+                background-color: #FFF;
+                display: block;
+                font-size: 11pt;
+                position: absolute;
+                top: 0px;
+                left: 3px;
+            }
+            .end{
+                background-color: #FFF;
+                display: block;
+                font-size: 11pt;
+                position: absolute;
+                bottom: 0px;
+                left: 3px;
+                text-align: center;
+            }
+        }
+        .itemBlock{
+            position: relative;
+            border: 1px solid #EEE;
+            border-radius: 5px;
+            padding: 8px 4px 8px 70px;
+            margin-bottom: 5px;
+            .itemThumbnail{
+                position: absolute;
+                overflow: hidden;
+                top: 20px;
+                left: 15px;
+                width: 40px;
+                height: 40px;
+                &>img{
+                    min-height: 40px;
+                    width: 100%;
+                }
+            }
+            .itemInfo{
+                .title{
+                    font-size: 12pt;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                }
+                .time{
+                    color: #333;
+                    font-size: 10pt;
+                    display: inline-block;
+                    margin-right: 12px;
+                    color: #333;
+                    font-size: 10pt;
+                }
+            }
+        }
+    }
+    // @media screen and (min-width: $screen-tablet) {
+    //     // style on tablet device
+    // }
+    // @media screen and (min-width: $screen-desktop) {
+    //     // style on desktop device
+    // }
+    // @media screen and (min-width: $screen-lg-desktop) {
+    //     // style on desktop device
+    // }
+
+    // &_modifier {
+        
+    // }
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}

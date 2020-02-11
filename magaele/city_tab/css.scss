@@ -1,0 +1,63 @@
+/**
+ * Import core mixins, variables, or others
+//  */
+// @import '../core/core/mixins';
+// @import '../core/core/variables';
+/**
+ * Define your classname
+ */
+$classname: 'city_tab';
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    // style on phone device
+    display: block;
+    list-style: none;
+    li{
+        position: relative;
+        margin-right: -3px;
+        display: inline-block;
+        padding: 6px 20px 6px 10px;
+        text-align: center;
+        background-color: #EEE;
+        color: #000;
+        font-size: 18px;
+        border-radius: 8px 8px 0px 0px;
+        -webkit-box-shadow: 0px -2px 2px 0px rgba(155,155,155,0.5);
+        -moz-box-shadow: 0px -2px 2px 0px rgba(155,155,155,0.5);
+        box-shadow: 0px -1px 2px 0px rgba(155,155,155,0.5);
+        cursor: pointer;
+        /* border-left: 1px solid rgba(155,155,155,0.5); */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: clip;
+        &.active{
+            position: relative;
+            z-index: 5;
+            background-color: #FFF;
+            color: #E10500;
+            font-weight: bold;
+            padding: 6px 20px 6px 10px;
+            width: auto;
+        }
+    }
+    li:hover {
+        position: relative;
+        z-index: 5;
+        background-color: #FFF;
+        color: #E10500;
+        font-weight: bold;
+        padding: 6px 20px 6px 10px;
+        width: auto;
+    }
+    & > .#{$classname}_child {
+        
+    }
+    & .#{$classname}_descendant {
+        
+    }
+}
