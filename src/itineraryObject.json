@@ -1,0 +1,1753 @@
+{
+    "scheduleList": [
+      {
+        "startTime": "08:00",
+        "placeList": null,
+        "hotelInfo": false,
+        "hotelcity": {
+          "from": {
+            "cityID": "",
+            "cityName": ""
+          },
+          "to": {
+            "cityID": "",
+            "cityName": ""
+          }
+        }
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        ],
+        "hotelInfo": {
+          "duration": 0,
+          "id": "",
+          "key": "1_21890",
+          "pid": "1_21890",
+          "name": "Hotel Mercure Paris Centre Tour Eiffel",
+          "type": "hotel",
+          "thumbnail": [
+            {
+              "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+            }
+          ],
+          "guideId": "24659",
+          "guideList": [
+            {
+              "id": "24659",
+              "name": "住宿-住宿含早",
+              "duration": 8,
+              "brief": "Mercure Paris Centre Tour Eiffel酒店距離Bir Hakeim Metro地鐵站有2分鐘路程。香榭麗舍大街、凱旋門和Branly Museum博物館。"
+            }
+          ]
+        },
+        "hotelcity": {
+          "from": {
+            "cityID": "",
+            "cityName": ""
+          },
+          "to": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        },
+        "itemList": [
+          {
+            "category": "4",
+            "id": "223",
+            "starttime": "0930",
+            "endtime": "1030",
+            "packageType": null,
+            "name": "巴黎聖母院",
+            "thumbnail": "https://photopdm.liontravel.com/223/巴黎聖母院.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "222",
+            "startLongitude": 2.327754,
+            "startLatitude": 48.873963,
+            "endLongitude": 2.327754,
+            "endLatitude": 48.873963,
+            "guideList": [
+              {
+                "id": "222",
+                "name": "入內參觀",
+                "duration": 1,
+                "brief": "座落於西提島上的聖母院建於12至14世紀(1163年至1345年)，是法國中世紀的建築代表作之一，也是小說家雨果「鐘樓怪人」故事發生背景之所在。沿著教堂正面左側的樓梯，可到69公尺高的塔頂，觀賞塞納河二岸風光及龐比度中心，整個巴黎市街的景象盡收眼底；教堂內窗戶直徑13公尺，彩繪玻璃美侖美奐宛若玫瑰花窗；教堂廣場是全法國道路的起點，型似八卦，造訪巴黎的遊客如果在上面踏一下，將可帶給您好運。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.873963,
+              "longitude": 2.327754
+            },
+            "pid": "1_223",
+            "guideId": "222",
+            "nowGuideInfo": {
+              "id": "222",
+              "name": "入內參觀",
+              "duration": 1,
+              "brief": "座落於西提島上的聖母院建於12至14世紀(1163年至1345年)，是法國中世紀的建築代表作之一，也是小說家雨果「鐘樓怪人」故事發生背景之所在。沿著教堂正面左側的樓梯，可到69公尺高的塔頂，觀賞塞納河二岸風光及龐比度中心，整個巴黎市街的景象盡收眼底；教堂內窗戶直徑13公尺，彩繪玻璃美侖美奐宛若玫瑰花窗；教堂廣場是全法國道路的起點，型似八卦，造訪巴黎的遊客如果在上面踏一下，將可帶給您好運。"
+            },
+            "latitude": 48.873963,
+            "longitude": 2.327754
+          },
+          {
+            "category": "4",
+            "id": "146",
+            "starttime": "1030",
+            "endtime": "1230",
+            "packageType": null,
+            "name": "羅浮宮",
+            "thumbnail": "https://photopdm.liontravel.com/146/羅浮宮.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "186",
+            "startLongitude": 2.337687,
+            "startLatitude": 48.860766,
+            "endLongitude": 2.337687,
+            "endLatitude": 48.860766,
+            "guideList": [
+              {
+                "id": "186",
+                "name": "參觀(含門票)",
+                "duration": 2,
+                "brief": "前往參觀位於杜維麗花園東邊的羅浮宮，現已是蒐集世界名畫、雕塑古物之藝術寶庫。並入內參觀鎮館三寶－蒙娜麗莎的微笑、米羅的維納斯和勝利女神像，讓您一窺藝術殿堂之奧妙。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.860766,
+              "longitude": 2.337687
+            },
+            "pid": "1_146",
+            "guideId": "186",
+            "nowGuideInfo": {
+              "id": "186",
+              "name": "參觀(含門票)",
+              "duration": 2,
+              "brief": "前往參觀位於杜維麗花園東邊的羅浮宮，現已是蒐集世界名畫、雕塑古物之藝術寶庫。並入內參觀鎮館三寶－蒙娜麗莎的微笑、米羅的維納斯和勝利女神像，讓您一窺藝術殿堂之奧妙。"
+            },
+            "latitude": 48.860766,
+            "longitude": 2.337687
+          },
+          {
+            "category": "4",
+            "id": "143",
+            "starttime": "1230",
+            "endtime": "1330",
+            "packageType": null,
+            "name": "協和廣場",
+            "thumbnail": "https://photopdm.liontravel.com/143/協和廣場.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "182",
+            "startLongitude": 2.321161,
+            "startLatitude": 48.865788,
+            "endLongitude": 2.321161,
+            "endLatitude": 48.865788,
+            "guideList": [
+              {
+                "id": "182",
+                "name": "下車參觀",
+                "duration": 1,
+                "brief": "廣場由Ange-Jacques Gabriel於1755年設計，是一個由護城河環繞的八角形，介於西面的香榭麗舍大街和東面的杜伊勒里宮之間。廣場上充滿了雕塑和噴泉。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.865788,
+              "longitude": 2.321161
+            },
+            "pid": "1_143",
+            "guideId": "182",
+            "nowGuideInfo": {
+              "id": "182",
+              "name": "下車參觀",
+              "duration": 1,
+              "brief": "廣場由Ange-Jacques Gabriel於1755年設計，是一個由護城河環繞的八角形，介於西面的香榭麗舍大街和東面的杜伊勒里宮之間。廣場上充滿了雕塑和噴泉。"
+            },
+            "latitude": 48.865788,
+            "longitude": 2.321161
+          },
+          {
+            "category": "4",
+            "id": "26860",
+            "starttime": "1330",
+            "endtime": "1400",
+            "packageType": null,
+            "name": "杜樂麗花園",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 30,
+            "nowGuide": "29842",
+            "startLongitude": 2.327501,
+            "startLatitude": 48.863485,
+            "endLongitude": 2.327501,
+            "endLatitude": 48.863485,
+            "guideList": [
+              {
+                "id": "29842",
+                "name": "下車參觀",
+                "duration": 0.5,
+                "brief": "杜樂麗花園是由王后凱薩琳·德·美第奇於1564年時為了興建杜樂麗宮所設計的。杜樂麗花園於1667年首次對外開放，並在法國大革命後成為公園。從19世紀開始，杜樂麗花園成為巴黎人民休閒、散步及放鬆心情的場所。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.863485,
+              "longitude": 2.327501
+            },
+            "pid": "1_26860",
+            "guideId": "29842",
+            "nowGuideInfo": {
+              "id": "29842",
+              "name": "下車參觀",
+              "duration": 0.5,
+              "brief": "杜樂麗花園是由王后凱薩琳·德·美第奇於1564年時為了興建杜樂麗宮所設計的。杜樂麗花園於1667年首次對外開放，並在法國大革命後成為公園。從19世紀開始，杜樂麗花園成為巴黎人民休閒、散步及放鬆心情的場所。"
+            },
+            "latitude": 48.863485,
+            "longitude": 2.327501
+          },
+          {
+            "category": "4",
+            "id": "26862",
+            "starttime": "1400",
+            "endtime": "1430",
+            "packageType": null,
+            "name": "瓦頓姆廣場",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 30,
+            "nowGuide": "29847",
+            "startLongitude": 48.867473,
+            "startLatitude": 2.329431,
+            "endLongitude": 48.867473,
+            "endLatitude": 2.329431,
+            "guideList": [
+              {
+                "id": "29847",
+                "name": "下車參觀",
+                "duration": 0.5,
+                "brief": "位於法國巴黎第一區，杜伊勒里宮以北，馬德萊娜教堂以東。是和平街 (巴黎)的起點，廣場中央的芳登廣場柱由拿破崙·波拿巴下令建造，以紀念奧斯特利茨戰役。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 2.329431,
+              "longitude": 48.867473
+            },
+            "pid": "1_26862",
+            "guideId": "29847",
+            "nowGuideInfo": {
+              "id": "29847",
+              "name": "下車參觀",
+              "duration": 0.5,
+              "brief": "位於法國巴黎第一區，杜伊勒里宮以北，馬德萊娜教堂以東。是和平街 (巴黎)的起點，廣場中央的芳登廣場柱由拿破崙·波拿巴下令建造，以紀念奧斯特利茨戰役。"
+            },
+            "latitude": 2.329431,
+            "longitude": 48.867473
+          },
+          {
+            "category": "4",
+            "id": "26866",
+            "starttime": "1430",
+            "endtime": "1530",
+            "packageType": null,
+            "name": "新凱旋門",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "29848",
+            "startLongitude": 2.236112,
+            "startLatitude": 48.892599,
+            "endLongitude": 2.236112,
+            "endLatitude": 48.892599,
+            "guideList": [
+              {
+                "id": "29848",
+                "name": "下車參觀",
+                "duration": 1,
+                "brief": "安裝在新凱旋門兩側門柱之間的圓柱形全景觀光電梯可將遊客帶至100多米高的新凱旋門頂部，從這裏可以望見凱旋門、香榭麗舍田園大道、協和廣場、杜伊樂麗花園與10公里外的羅浮宮。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.892599,
+              "longitude": 2.236112
+            },
+            "pid": "1_26866",
+            "guideId": "29848",
+            "nowGuideInfo": {
+              "id": "29848",
+              "name": "下車參觀",
+              "duration": 1,
+              "brief": "安裝在新凱旋門兩側門柱之間的圓柱形全景觀光電梯可將遊客帶至100多米高的新凱旋門頂部，從這裏可以望見凱旋門、香榭麗舍田園大道、協和廣場、杜伊樂麗花園與10公里外的羅浮宮。"
+            },
+            "latitude": 48.892599,
+            "longitude": 2.236112
+          },
+          {
+            "category": "4",
+            "id": "141",
+            "starttime": "1530",
+            "endtime": "1730",
+            "packageType": null,
+            "name": "凱旋門",
+            "thumbnail": "https://photopdm.liontravel.com/141/凱旋門.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "180",
+            "startLongitude": 2.295909,
+            "startLatitude": 48.873757,
+            "endLongitude": 2.295909,
+            "endLatitude": 48.873757,
+            "guideList": [
+              {
+                "id": "180",
+                "name": "參觀(含門票)",
+                "duration": 2,
+                "brief": "是為了紀念拿破崙的勝利與光榮所建的，為古羅馬式風格宏偉壯觀的建築，是巴黎著名放射狀街道的中心。凱旋門的四周都有門，門內刻有跟隨拿破崙遠征的386名將軍和96場勝戰的名字，門上刻有1792年至1815年間的法國戰事史。凱旋門的拱門上可以乘電梯或登石梯上去，石梯共284階，上去後第一站有一個小型的歷史博物館，裡面陳列著有關凱旋門的各種歷史文物以及拿破崙生平事蹟的圖片和法國的各種勳章、獎章。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.873757,
+              "longitude": 2.295909
+            },
+            "pid": "1_141",
+            "guideId": "180",
+            "nowGuideInfo": {
+              "id": "180",
+              "name": "參觀(含門票)",
+              "duration": 2,
+              "brief": "是為了紀念拿破崙的勝利與光榮所建的，為古羅馬式風格宏偉壯觀的建築，是巴黎著名放射狀街道的中心。凱旋門的四周都有門，門內刻有跟隨拿破崙遠征的386名將軍和96場勝戰的名字，門上刻有1792年至1815年間的法國戰事史。凱旋門的拱門上可以乘電梯或登石梯上去，石梯共284階，上去後第一站有一個小型的歷史博物館，裡面陳列著有關凱旋門的各種歷史文物以及拿破崙生平事蹟的圖片和法國的各種勳章、獎章。"
+            },
+            "latitude": 48.873757,
+            "longitude": 2.295909
+          },
+          {
+            "category": "4",
+            "id": "145",
+            "starttime": "1730",
+            "endtime": "1930",
+            "packageType": null,
+            "name": "香榭麗舍大道",
+            "thumbnail": "https://photopdm.liontravel.com/145/香榭麗舍大道.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "184",
+            "startLongitude": 2.308293,
+            "startLatitude": 48.869812,
+            "endLongitude": 2.308293,
+            "endLatitude": 48.869812,
+            "guideList": [
+              {
+                "id": "184",
+                "name": "下車參觀",
+                "duration": 2,
+                "brief": "香榭麗舍大道位於巴黎八區，城市的西北部。起始於協和廣場，廣場上矗立有方尖碑，大街由東向西延伸1915米，前半段較平坦，接著有一段上坡直到戴高樂廣場（舊稱星形廣場，位於夏佑宮所在的高地頂部），廣場中心屹立著凱旋門。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.871872,
+              "longitude": 2.317643
+            },
+            "pid": "1_145",
+            "guideId": "184",
+            "nowGuideInfo": {
+              "id": "184",
+              "name": "下車參觀",
+              "duration": 2,
+              "brief": "香榭麗舍大道位於巴黎八區，城市的西北部。起始於協和廣場，廣場上矗立有方尖碑，大街由東向西延伸1915米，前半段較平坦，接著有一段上坡直到戴高樂廣場（舊稱星形廣場，位於夏佑宮所在的高地頂部），廣場中心屹立著凱旋門。"
+            },
+            "latitude": 48.871872,
+            "longitude": 2.317643
+          },
+          {
+            "category": "1",
+            "id": "3869",
+            "starttime": "1930",
+            "endtime": "2030",
+            "packageType": null,
+            "name": "花神咖啡館",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "3484",
+            "startLongitude": 2.33257,
+            "startLatitude": 48.854176,
+            "endLongitude": 2.33257,
+            "endLatitude": 48.854176,
+            "guideList": [
+              {
+                "id": "3484",
+                "name": "特色美食-品嘗咖啡",
+                "duration": 1,
+                "brief": "花神咖啡館是巴黎的一座百年咖啡館，創建於1887年，據說是現存的最古老咖啡館。此店在戰後成為法國知識分子的聚集地，沙特和西蒙波娃曾在此會面喝咖啡討論他們的存在主義哲學主張，也讓此店在巴黎歷史上留下一筆紀錄。其名稱源自於林蔭大道旁的一尊雕像：芙蘿拉，羅馬神話中的春之母，花朵和花園的女神。咖啡館的室內裝飾為經典的裝飾藝術運動風格，紅色座位，桃花心木和鏡子自二戰以來並沒有多大變化。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.854176,
+              "longitude": 2.33257
+            },
+            "pid": "1_3869",
+            "guideId": "3484",
+            "nowGuideInfo": {
+              "id": "3484",
+              "name": "特色美食-品嘗咖啡",
+              "duration": 1,
+              "brief": "花神咖啡館是巴黎的一座百年咖啡館，創建於1887年，據說是現存的最古老咖啡館。此店在戰後成為法國知識分子的聚集地，沙特和西蒙波娃曾在此會面喝咖啡討論他們的存在主義哲學主張，也讓此店在巴黎歷史上留下一筆紀錄。其名稱源自於林蔭大道旁的一尊雕像：芙蘿拉，羅馬神話中的春之母，花朵和花園的女神。咖啡館的室內裝飾為經典的裝飾藝術運動風格，紅色座位，桃花心木和鏡子自二戰以來並沒有多大變化。"
+            },
+            "latitude": 48.854176,
+            "longitude": 2.33257
+          },
+          {
+            "category": "4",
+            "id": "224",
+            "starttime": "2030",
+            "endtime": "2200",
+            "packageType": null,
+            "name": "聖心堂",
+            "thumbnail": "https://photopdm.liontravel.com/224/聖心堂.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 90,
+            "nowGuide": "223",
+            "startLongitude": 2.343072,
+            "startLatitude": 48.886705,
+            "endLongitude": 2.343072,
+            "endLatitude": 48.886705,
+            "guideList": [
+              {
+                "id": "223",
+                "name": "入內參觀",
+                "duration": 1.5,
+                "brief": "聖心堂位在蒙馬特小山上，居高臨下觀望著，是巴黎的最高點。聖心堂建於18世紀末，是為了紀念普法戰爭而建，1870年普魯士入侵法國，巴黎被圍城的4個月，因感謝耶穌而興建聖心堂。從教堂正門最上方即可看見耶穌雕像，大門入口處的浮雕也描述種種耶穌生平事蹟。聖心堂的建材十分特別，是一種白色的石頭，一遇到雨水，石頭會分泌出一種白色物質，潔淨整座教堂，使教堂外觀永遠是純淨潔白，所以法國人又稱聖心堂為「白教堂」。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.886705,
+              "longitude": 2.343072
+            },
+            "pid": "1_224",
+            "guideId": "223",
+            "nowGuideInfo": {
+              "id": "223",
+              "name": "入內參觀",
+              "duration": 1.5,
+              "brief": "聖心堂位在蒙馬特小山上，居高臨下觀望著，是巴黎的最高點。聖心堂建於18世紀末，是為了紀念普法戰爭而建，1870年普魯士入侵法國，巴黎被圍城的4個月，因感謝耶穌而興建聖心堂。從教堂正門最上方即可看見耶穌雕像，大門入口處的浮雕也描述種種耶穌生平事蹟。聖心堂的建材十分特別，是一種白色的石頭，一遇到雨水，石頭會分泌出一種白色物質，潔淨整座教堂，使教堂外觀永遠是純淨潔白，所以法國人又稱聖心堂為「白教堂」。"
+            },
+            "latitude": 48.886705,
+            "longitude": 2.343072
+          }
+        ]
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        ],
+        "hotelInfo": {
+          "duration": 0,
+          "id": "",
+          "key": "1_21890",
+          "pid": "1_21890",
+          "name": "Hotel Mercure Paris Centre Tour Eiffel",
+          "type": "hotel",
+          "thumbnail": [
+            {
+              "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+            }
+          ],
+          "guideId": "24659",
+          "guideList": [
+            {
+              "id": "24659",
+              "name": "住宿-住宿含早",
+              "duration": 8,
+              "brief": "Mercure Paris Centre Tour Eiffel酒店距離Bir Hakeim Metro地鐵站有2分鐘路程。香榭麗舍大街、凱旋門和Branly Museum博物館。"
+            }
+          ]
+        },
+        "hotelcity": {
+          "from": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          },
+          "to": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        },
+        "itemList": [
+          {
+            "category": "4",
+            "id": "3575",
+            "starttime": "0900",
+            "endtime": "1000",
+            "packageType": null,
+            "name": "凡爾賽宮",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "3207",
+            "startLongitude": 2.120339,
+            "startLatitude": 48.804868,
+            "endLongitude": 2.120339,
+            "endLatitude": 48.804868,
+            "guideList": [
+              {
+                "id": "3207",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "凡爾賽宮位於法國巴黎西南郊外伊夫林省省會凡爾賽鎮。1682年至1789年是法國的王宮。1837年，路易‧菲利浦決定重修凡爾塞宮，並將這座帝王的宮殿改建成為歷史博物館，收藏著大量珍貴的肖像畫、雕塑、巨幅歷史畫以及其他藝術珍品。其中最著名的為鏡廳。"
+              },
+              {
+                "id": "3209",
+                "name": "參觀(含門票)-皇宮建築",
+                "duration": 1,
+                "brief": "凡爾賽宮為1668年路易十四以路易十三的狩獵小屋為基礎陸續建造的宮殿，1682年至1789年是法國的王宮。1979年被列入《世界文化遺產名錄》，1837年路易‧菲利浦決定重修凡爾塞宮，並將這座帝王的宮殿改建成為歷史博物館，收藏著大量珍貴的肖像畫、雕塑、巨幅歷史畫以及其他藝術珍品。其中最著名的為將窗戶外陽光和御花園景色引入的鏡廳鏡廳、亦有國王皇后的寢室、白色大理石巴洛克風格的壁畫、金璧輝煌的大廳等等。。夏季時有音樂噴泉表演可以欣賞。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.804865,
+              "longitude": 2.120355
+            },
+            "pid": "1_3575",
+            "guideId": "3207",
+            "nowGuideInfo": {
+              "id": "3207",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "凡爾賽宮位於法國巴黎西南郊外伊夫林省省會凡爾賽鎮。1682年至1789年是法國的王宮。1837年，路易‧菲利浦決定重修凡爾塞宮，並將這座帝王的宮殿改建成為歷史博物館，收藏著大量珍貴的肖像畫、雕塑、巨幅歷史畫以及其他藝術珍品。其中最著名的為鏡廳。"
+            },
+            "latitude": 48.804865,
+            "longitude": 2.120355
+          },
+          {
+            "category": "4",
+            "id": "3600",
+            "starttime": "1000",
+            "endtime": "1100",
+            "packageType": null,
+            "name": "巴黎歌劇院",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "3204",
+            "startLongitude": 2.33158,
+            "startLatitude": 48.871991,
+            "endLongitude": 2.33158,
+            "endLatitude": 48.871991,
+            "guideList": [
+              {
+                "id": "3204",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "加尼葉歌劇院，通常稱為巴黎歌劇院，是一座位於法國巴黎，擁有1979個座位的歌劇院。巴黎歌劇院是一座新巴洛克風格的建築，由法國建築師查爾斯·加尼葉所設計，被認為是新巴洛克式建築的典範之一。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.871991,
+              "longitude": 2.33158
+            },
+            "pid": "1_3600",
+            "guideId": "3204",
+            "nowGuideInfo": {
+              "id": "3204",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "加尼葉歌劇院，通常稱為巴黎歌劇院，是一座位於法國巴黎，擁有1979個座位的歌劇院。巴黎歌劇院是一座新巴洛克風格的建築，由法國建築師查爾斯·加尼葉所設計，被認為是新巴洛克式建築的典範之一。"
+            },
+            "latitude": 48.871991,
+            "longitude": 2.33158
+          },
+          {
+            "category": "4",
+            "id": "26872",
+            "starttime": "1100",
+            "endtime": "1230",
+            "packageType": null,
+            "name": "瑪德蓮教堂",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 90,
+            "nowGuide": "29853",
+            "startLongitude": 2.32455,
+            "startLatitude": 48.870045,
+            "endLongitude": 2.32455,
+            "endLatitude": 48.870045,
+            "guideList": [
+              {
+                "id": "29853",
+                "name": "下車參觀",
+                "duration": 1.5,
+                "brief": "這個新古典主義風格教堂是為了紀念拿破崙軍隊的榮耀所建，以仿希臘神殿科林斯式列柱支撐，是座別具風格的基督教教堂。祭壇上方的壁畫題為「基督教歷史」，表現基督教歷史上的關鍵人物。此外還有台著名的管風琴。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.870045,
+              "longitude": 2.32455
+            },
+            "pid": "1_26872",
+            "guideId": "29853",
+            "nowGuideInfo": {
+              "id": "29853",
+              "name": "下車參觀",
+              "duration": 1.5,
+              "brief": "這個新古典主義風格教堂是為了紀念拿破崙軍隊的榮耀所建，以仿希臘神殿科林斯式列柱支撐，是座別具風格的基督教教堂。祭壇上方的壁畫題為「基督教歷史」，表現基督教歷史上的關鍵人物。此外還有台著名的管風琴。"
+            },
+            "latitude": 48.870045,
+            "longitude": 2.32455
+          },
+          {
+            "category": "4",
+            "id": "144",
+            "starttime": "1230",
+            "endtime": "1430",
+            "packageType": null,
+            "name": "艾菲爾鐵塔",
+            "thumbnail": "https://photopdm.liontravel.com/144/艾菲爾鐵塔.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "183",
+            "startLongitude": 2.29446,
+            "startLatitude": 48.858554,
+            "endLongitude": 2.29446,
+            "endLatitude": 48.858554,
+            "guideList": [
+              {
+                "id": "183",
+                "name": "參觀(含門票)",
+                "duration": 2,
+                "brief": "艾菲爾鐵塔是位於法國巴黎戰神廣場的鐵製鏤空塔，世界著名建築，也是法國文化象徵之一，巴黎城市地標之一，巴黎最高建築物，得名自其設計師居斯塔夫·艾菲爾，屬於世界建築史上的技術傑作。艾菲爾鐵塔也是世界上最多人付費參觀的名勝古跡，2011年約有698萬人參觀，在2010年累計參觀人數已超過二億七千萬人。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.858554,
+              "longitude": 2.29446
+            },
+            "pid": "1_144",
+            "guideId": "183",
+            "nowGuideInfo": {
+              "id": "183",
+              "name": "參觀(含門票)",
+              "duration": 2,
+              "brief": "艾菲爾鐵塔是位於法國巴黎戰神廣場的鐵製鏤空塔，世界著名建築，也是法國文化象徵之一，巴黎城市地標之一，巴黎最高建築物，得名自其設計師居斯塔夫·艾菲爾，屬於世界建築史上的技術傑作。艾菲爾鐵塔也是世界上最多人付費參觀的名勝古跡，2011年約有698萬人參觀，在2010年累計參觀人數已超過二億七千萬人。"
+            },
+            "latitude": 48.858554,
+            "longitude": 2.29446
+          }
+        ]
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        ],
+        "hotelInfo": {
+          "duration": 0,
+          "id": "",
+          "key": "1_21890",
+          "pid": "1_21890",
+          "name": "Hotel Mercure Paris Centre Tour Eiffel",
+          "type": "hotel",
+          "thumbnail": [
+            {
+              "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+            }
+          ],
+          "guideId": "24659",
+          "guideList": [
+            {
+              "id": "24659",
+              "name": "住宿-住宿含早",
+              "duration": 8,
+              "brief": "Mercure Paris Centre Tour Eiffel酒店距離Bir Hakeim Metro地鐵站有2分鐘路程。香榭麗舍大街、凱旋門和Branly Museum博物館。"
+            }
+          ]
+        },
+        "hotelcity": {
+          "from": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          },
+          "to": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        },
+        "itemList": [
+          {
+            "category": "4",
+            "id": "145",
+            "starttime": "0830",
+            "endtime": "1030",
+            "packageType": null,
+            "name": "香榭麗舍大道",
+            "thumbnail": "https://photopdm.liontravel.com/145/香榭麗舍大道.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "184",
+            "startLongitude": 2.308293,
+            "startLatitude": 48.869812,
+            "endLongitude": 2.308293,
+            "endLatitude": 48.869812,
+            "guideList": [
+              {
+                "id": "184",
+                "name": "下車參觀",
+                "duration": 2,
+                "brief": "香榭麗舍大道位於巴黎八區，城市的西北部。起始於協和廣場，廣場上矗立有方尖碑，大街由東向西延伸1915米，前半段較平坦，接著有一段上坡直到戴高樂廣場（舊稱星形廣場，位於夏佑宮所在的高地頂部），廣場中心屹立著凱旋門。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.871872,
+              "longitude": 2.317643
+            },
+            "pid": "1_145",
+            "guideId": "184",
+            "nowGuideInfo": {
+              "id": "184",
+              "name": "下車參觀",
+              "duration": 2,
+              "brief": "香榭麗舍大道位於巴黎八區，城市的西北部。起始於協和廣場，廣場上矗立有方尖碑，大街由東向西延伸1915米，前半段較平坦，接著有一段上坡直到戴高樂廣場（舊稱星形廣場，位於夏佑宮所在的高地頂部），廣場中心屹立著凱旋門。"
+            },
+            "latitude": 48.871872,
+            "longitude": 2.317643
+          },
+          {
+            "category": "4",
+            "id": "26876",
+            "starttime": "1030",
+            "endtime": "1200",
+            "packageType": null,
+            "name": "蒙田大道",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 90,
+            "nowGuide": "29861",
+            "startLongitude": 2.305721,
+            "startLatitude": 48.86672,
+            "endLongitude": 2.305721,
+            "endLatitude": 48.86672,
+            "guideList": [
+              {
+                "id": "29861",
+                "name": "下車參觀",
+                "duration": 1,
+                "brief": "蒙田大道被認為是巴黎奢侈品世界的象徵，此處彙聚了眾多世界頂級的奢侈品品牌，如Ungaro Prada、Valentino 、LV、Dior、Chanel、Calvin Klein和Gucci。"
+              },
+              {
+                "id": "30894",
+                "name": "參觀選購",
+                "duration": 1.5,
+                "brief": "蒙田大道被認為是巴黎奢侈品世界的象徵，此處彙聚了眾多世界頂級的奢侈品品牌，如Ungaro Prada、Valentino 、LV、Dior、Chanel、Calvin Klein和Gucci。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.86672,
+              "longitude": 2.305721
+            },
+            "pid": "1_26876",
+            "guideId": "29861",
+            "nowGuideInfo": {
+              "id": "29861",
+              "name": "下車參觀",
+              "duration": 1,
+              "brief": "蒙田大道被認為是巴黎奢侈品世界的象徵，此處彙聚了眾多世界頂級的奢侈品品牌，如Ungaro Prada、Valentino 、LV、Dior、Chanel、Calvin Klein和Gucci。"
+            },
+            "latitude": 48.86672,
+            "longitude": 2.305721
+          }
+        ]
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          }
+        ],
+        "hotelInfo": {
+          "duration": 0,
+          "id": "",
+          "key": "1_28285",
+          "pid": "1_28285",
+          "name": "倫敦市政廳公園廣場酒店",
+          "type": "hotel",
+          "thumbnail": [
+            {
+              "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+            }
+          ],
+          "guideId": "31577",
+          "guideList": [
+            {
+              "id": "31577",
+              "name": "住宿-住宿含早",
+              "duration": 8,
+              "brief": "倫敦市政廳公園廣場酒店寬敞的客房配有等離子電視、寬大的辦公桌和微波爐。客人還可以使用免費WiFi和24小時客房服務。位於高層的客房能夠欣賞到倫敦眼和倫敦市區的美景。L、Italiano餐廳每天早晨供應意大利美食和全套英式早餐。"
+            }
+          ]
+        },
+        "hotelcity": {
+          "from": {
+            "cityID": "C101500001",
+            "cityName": "巴黎市"
+          },
+          "to": {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          }
+        },
+        "itemList": [
+          {
+            "category": "3",
+            "id": "26882",
+            "starttime": "0830",
+            "endtime": "1830",
+            "packageType": null,
+            "name": "歐洲東方快車",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 600,
+            "nowGuide": "29863",
+            "startLongitude": 2.359285,
+            "startLatitude": 48.876781,
+            "endLongitude": 0.143898,
+            "endLatitude": 51.495212,
+            "guideList": [
+              {
+                "id": "29863",
+                "name": "體驗搭乘-特色鐵道",
+                "duration": 10,
+                "brief": "東方快車是歐洲的長程豪華臥鋪列車列車，主要行駛巴黎至伊斯坦堡，橫貫歐洲大陸。且可由巴黎東站前往轉乘東方快英國的Pullman系列火車後，再抵達倫敦維多利亞車站。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 48.876781,
+              "longitude": 2.359285
+            },
+            "pid": "1_26882",
+            "guideId": "29863",
+            "nowGuideInfo": {
+              "id": "29863",
+              "name": "體驗搭乘-特色鐵道",
+              "duration": 10,
+              "brief": "東方快車是歐洲的長程豪華臥鋪列車列車，主要行駛巴黎至伊斯坦堡，橫貫歐洲大陸。且可由巴黎東站前往轉乘東方快英國的Pullman系列火車後，再抵達倫敦維多利亞車站。"
+            },
+            "latitude": 48.876781,
+            "longitude": 2.359285
+          }
+        ]
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          }
+        ],
+        "hotelInfo": {
+          "duration": 0,
+          "id": "",
+          "key": "1_28285",
+          "pid": "1_28285",
+          "name": "倫敦市政廳公園廣場酒店",
+          "type": "hotel",
+          "thumbnail": [
+            {
+              "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+            }
+          ],
+          "guideId": "31577",
+          "guideList": [
+            {
+              "id": "31577",
+              "name": "住宿-住宿含早",
+              "duration": 8,
+              "brief": "倫敦市政廳公園廣場酒店寬敞的客房配有等離子電視、寬大的辦公桌和微波爐。客人還可以使用免費WiFi和24小時客房服務。位於高層的客房能夠欣賞到倫敦眼和倫敦市區的美景。L、Italiano餐廳每天早晨供應意大利美食和全套英式早餐。"
+            }
+          ]
+        },
+        "hotelcity": {
+          "from": {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          },
+          "to": {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          }
+        },
+        "itemList": [
+          {
+            "category": "5",
+            "id": "26883",
+            "starttime": "1030",
+            "endtime": "1200",
+            "packageType": null,
+            "name": "哈洛德百貨公司",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 90,
+            "nowGuide": "30889",
+            "startLongitude": -0.163235,
+            "startLatitude": 51.499408,
+            "endLongitude": -0.163235,
+            "endLatitude": 51.499408,
+            "guideList": [
+              {
+                "id": "29864",
+                "name": "下車參觀",
+                "duration": 0.5,
+                "brief": "哈洛德百貨的330個部門提供了多元化的產品和服務。產品包括服飾（男女裝、童裝、嬰兒裝）、電器、珠寶、運動器材、結婚禮服、寵物和周邊產品、玩具、飲食、健康美容產品、禮品、文具、家居用品、家電、家具等等。"
+              },
+              {
+                "id": "30889",
+                "name": "參觀選購",
+                "duration": 2,
+                "brief": "哈洛德百貨的330個部門提供了多元化的產品和服務。產品包括服飾（男女裝、童裝、嬰兒裝）、電器、珠寶、運動器材、結婚禮服、寵物和周邊產品、玩具、飲食、健康美容產品、禮品、文具、家居用品、家電、家具等等。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.499408,
+              "longitude": -0.163235
+            },
+            "pid": "1_26883",
+            "guideId": "30889",
+            "nowGuideInfo": {
+              "id": "30889",
+              "name": "參觀選購",
+              "duration": 2,
+              "brief": "哈洛德百貨的330個部門提供了多元化的產品和服務。產品包括服飾（男女裝、童裝、嬰兒裝）、電器、珠寶、運動器材、結婚禮服、寵物和周邊產品、玩具、飲食、健康美容產品、禮品、文具、家居用品、家電、家具等等。"
+            },
+            "latitude": 51.499408,
+            "longitude": -0.163235
+          },
+          {
+            "category": "5",
+            "id": "26887",
+            "starttime": "1200",
+            "endtime": "1330",
+            "packageType": null,
+            "name": "夏菲尼高",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 90,
+            "nowGuide": "30891",
+            "startLongitude": -0.159721,
+            "startLatitude": 51.501595,
+            "endLongitude": -0.159721,
+            "endLatitude": 51.501595,
+            "guideList": [
+              {
+                "id": "29868",
+                "name": "下車參觀",
+                "duration": 0.5,
+                "brief": "夏菲尼高出售貨品包括男裝、女裝、家庭用品、美容產品及食品等，主要為高級品牌產品，比其英國主要競爭對手哈洛德百貨公司吸引較年輕的顧客。"
+              },
+              {
+                "id": "30891",
+                "name": "參觀選購",
+                "duration": 2,
+                "brief": "夏菲尼高出售貨品包括男裝、女裝、家庭用品、美容產品及食品等，主要為高級品牌產品，比其英國主要競爭對手哈洛德百貨公司吸引較年輕的顧客。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.501595,
+              "longitude": -0.159721
+            },
+            "pid": "1_26887",
+            "guideId": "30891",
+            "nowGuideInfo": {
+              "id": "30891",
+              "name": "參觀選購",
+              "duration": 2,
+              "brief": "夏菲尼高出售貨品包括男裝、女裝、家庭用品、美容產品及食品等，主要為高級品牌產品，比其英國主要競爭對手哈洛德百貨公司吸引較年輕的顧客。"
+            },
+            "latitude": 51.501595,
+            "longitude": -0.159721
+          },
+          {
+            "category": "5",
+            "id": "26888",
+            "starttime": "1330",
+            "endtime": "1330",
+            "packageType": null,
+            "name": "Selfridge百貨",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "29870",
+            "startLongitude": -0.152731,
+            "startLatitude": 51.514566,
+            "endLongitude": -0.152731,
+            "endLatitude": 51.514566,
+            "guideList": [
+              {
+                "id": "29870",
+                "name": "參觀選購",
+                "duration": 0,
+                "brief": "這是一間僅次於哈洛德百貨公司的英國第二大高檔百貨公司，在此可以逛到超過300家精品店與頂級名牌店，讓人流連忘返。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.514566,
+              "longitude": -0.152731
+            },
+            "pid": "1_26888",
+            "guideId": "29870",
+            "nowGuideInfo": {
+              "id": "29870",
+              "name": "參觀選購",
+              "duration": 0,
+              "brief": "這是一間僅次於哈洛德百貨公司的英國第二大高檔百貨公司，在此可以逛到超過300家精品店與頂級名牌店，讓人流連忘返。"
+            },
+            "latitude": 51.514566,
+            "longitude": -0.152731
+          },
+          {
+            "category": "5",
+            "id": "27801",
+            "starttime": "1330",
+            "endtime": "1430",
+            "packageType": null,
+            "name": "龐德街站",
+            "thumbnail": "https://updmexapi.api.liontravel.com/photo/120.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "30887",
+            "startLongitude": -0.149557,
+            "startLatitude": 51.513953,
+            "endLongitude": -0.149557,
+            "endLatitude": 51.513953,
+            "guideList": [
+              {
+                "id": "30887",
+                "name": "下車參觀",
+                "duration": 1,
+                "brief": "位於英國倫敦西敏市，是倫敦地鐵中央線及朱比利線交會的地鐵站，本站設在牛津街下方，儘管本站以龐德街為名，但出口卻位於新龐德街以西數公尺處，牛津街及戴維斯街口西側的購物中心內。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.513953,
+              "longitude": -0.149557
+            },
+            "pid": "1_27801",
+            "guideId": "30887",
+            "nowGuideInfo": {
+              "id": "30887",
+              "name": "下車參觀",
+              "duration": 1,
+              "brief": "位於英國倫敦西敏市，是倫敦地鐵中央線及朱比利線交會的地鐵站，本站設在牛津街下方，儘管本站以龐德街為名，但出口卻位於新龐德街以西數公尺處，牛津街及戴維斯街口西側的購物中心內。"
+            },
+            "latitude": 51.513953,
+            "longitude": -0.149557
+          }
+        ]
+      },
+      {
+        "startTime": "08:00",
+        "placeList": null,
+        "hotelInfo": false,
+        "hotelcity": {
+          "from": {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          },
+          "to": {
+            "cityID": "",
+            "cityName": ""
+          }
+        }
+      },
+      {
+        "startTime": "08:00",
+        "placeList": [
+          {
+            "cityID": "C104500087",
+            "cityName": "倫敦市"
+          }
+        ],
+        "hotelInfo": false,
+        "hotelcity": {
+          "from": {
+            "cityID": "",
+            "cityName": ""
+          },
+          "to": {
+            "cityID": "",
+            "cityName": ""
+          }
+        },
+        "itemList": [
+          {
+            "category": "4",
+            "id": "237",
+            "starttime": "1000",
+            "endtime": "1030",
+            "packageType": null,
+            "name": "倫敦塔",
+            "thumbnail": "https://photopdm.liontravel.com/237/PIC1312-130613倫敦塔.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 30,
+            "nowGuide": "230",
+            "startLongitude": -0.075756,
+            "startLatitude": 51.508132,
+            "endLongitude": -0.075756,
+            "endLatitude": 51.508132,
+            "guideList": [
+              {
+                "id": "230",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "倫敦塔係英國威廉一世時建造，迄今已有900多年曆史。它雖然曾一度為皇宮和皇室居所，但後來卻成為一座囚禁要犯的皇家監獄。現今倫敦塔內每個塔有不同藏物和典故，其中歷史最悠久的白塔（White Tower）於11世紀末完工，典藏了許多皇室兵器，目前是英國國家兵工器和倫敦塔博物館，數百年來各種武器演進在此一覽無遺。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.508132,
+              "longitude": -0.075756
+            },
+            "pid": "1_237",
+            "guideId": "230",
+            "nowGuideInfo": {
+              "id": "230",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "倫敦塔係英國威廉一世時建造，迄今已有900多年曆史。它雖然曾一度為皇宮和皇室居所，但後來卻成為一座囚禁要犯的皇家監獄。現今倫敦塔內每個塔有不同藏物和典故，其中歷史最悠久的白塔（White Tower）於11世紀末完工，典藏了許多皇室兵器，目前是英國國家兵工器和倫敦塔博物館，數百年來各種武器演進在此一覽無遺。"
+            },
+            "latitude": 51.508132,
+            "longitude": -0.075756
+          },
+          {
+            "category": "4",
+            "id": "238",
+            "starttime": "1030",
+            "endtime": "1130",
+            "packageType": null,
+            "name": "倫敦塔橋",
+            "thumbnail": "https://photopdm.liontravel.com/238/倫敦塔橋.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "231",
+            "startLongitude": -0.075357,
+            "startLatitude": 51.505476,
+            "endLongitude": -0.075357,
+            "endLatitude": 51.505476,
+            "guideList": [
+              {
+                "id": "231",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "塔橋為倫敦著名的地標之一，也是泰晤士河新一代的精神象徵，兩座哥德式塔樓內有升起橋面讓大船通過的機械裝置。兩塔間設兩座高架步橋銜接，步橋因淪為妓女與自殺的熱門地點，在1909至1982年間關閉，栩栩如生的語音機械模具，陳述建築塔樓的故事。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.505476,
+              "longitude": -0.075357
+            },
+            "pid": "1_238",
+            "guideId": "231",
+            "nowGuideInfo": {
+              "id": "231",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "塔橋為倫敦著名的地標之一，也是泰晤士河新一代的精神象徵，兩座哥德式塔樓內有升起橋面讓大船通過的機械裝置。兩塔間設兩座高架步橋銜接，步橋因淪為妓女與自殺的熱門地點，在1909至1982年間關閉，栩栩如生的語音機械模具，陳述建築塔樓的故事。"
+            },
+            "latitude": 51.505476,
+            "longitude": -0.075357
+          },
+          {
+            "category": "4",
+            "id": "240",
+            "starttime": "1130",
+            "endtime": "1230",
+            "packageType": null,
+            "name": "白金漢宮",
+            "thumbnail": "https://photopdm.liontravel.com/240/白金漢宮.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "233",
+            "startLongitude": -0.141911,
+            "startLatitude": 51.501364,
+            "endLongitude": -0.141911,
+            "endLatitude": 51.501364,
+            "guideList": [
+              {
+                "id": "233",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "自從1837年維多利亞女王登上王座， buckingham palace改為王宮。宮殿上方如果飄揚著國旗，表示女王正住在宮中。每年8、9月間對外開放，一般民眾就可趁此時進入皇宮，瞧瞧究竟這個日不落國的王室居所有何可觀之處。白金漢宮建於1703年，前身為白金漢屋。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.501364,
+              "longitude": -0.141911
+            },
+            "pid": "1_240",
+            "guideId": "233",
+            "nowGuideInfo": {
+              "id": "233",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "自從1837年維多利亞女王登上王座， buckingham palace改為王宮。宮殿上方如果飄揚著國旗，表示女王正住在宮中。每年8、9月間對外開放，一般民眾就可趁此時進入皇宮，瞧瞧究竟這個日不落國的王室居所有何可觀之處。白金漢宮建於1703年，前身為白金漢屋。"
+            },
+            "latitude": 51.501364,
+            "longitude": -0.141911
+          },
+          {
+            "category": "4",
+            "id": "243",
+            "starttime": "1230",
+            "endtime": "1330",
+            "packageType": null,
+            "name": "大笨鐘",
+            "thumbnail": "https://photopdm.liontravel.com/243/大鵬鐘.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "236",
+            "startLongitude": -0.124659,
+            "startLatitude": 51.499559,
+            "endLongitude": -0.124659,
+            "endLatitude": 51.499559,
+            "guideList": [
+              {
+                "id": "236",
+                "name": "下車參觀(不入內)",
+                "duration": 1,
+                "brief": "儘管是世界上最著名的旅遊景點之一，在塔的內部是不開放給海外遊客，而英國的居民可通過他們的國會議員安排旅遊（提前申請）。[3]。然而，塔沒有電梯，所以那些護送必須攀爬334階石灰石樓梯到頂端。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.499559,
+              "longitude": -0.124659
+            },
+            "pid": "1_243",
+            "guideId": "236",
+            "nowGuideInfo": {
+              "id": "236",
+              "name": "下車參觀(不入內)",
+              "duration": 1,
+              "brief": "儘管是世界上最著名的旅遊景點之一，在塔的內部是不開放給海外遊客，而英國的居民可通過他們的國會議員安排旅遊（提前申請）。[3]。然而，塔沒有電梯，所以那些護送必須攀爬334階石灰石樓梯到頂端。"
+            },
+            "latitude": 51.499559,
+            "longitude": -0.124659
+          },
+          {
+            "category": "4",
+            "id": "241",
+            "starttime": "1330",
+            "endtime": "1530",
+            "packageType": null,
+            "name": "國會大廈",
+            "thumbnail": "https://photopdm.liontravel.com/241/國會大廈.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 120,
+            "nowGuide": "234",
+            "startLongitude": -0.124659,
+            "startLatitude": 51.499559,
+            "endLongitude": -0.124659,
+            "endLatitude": 51.499559,
+            "guideList": [
+              {
+                "id": "234",
+                "name": "參觀(含門票)",
+                "duration": 2,
+                "brief": "國會大廈是世界最大的哥德式建筑物之一，矗立於泰唔士河畔，氣勢雄偉，外貌典雅。國會大廈內有1200間房間，自13世紀以來，此處便是英國國會開會之處，也同時兼為國王宮殿。建議遊客可從兩個方向欣賞國會大廈外觀，視野最棒。一是站在西敏橋上，另外也可以從位於泰晤士河南岸的蘭貝斯宮遠眺。"
+              },
+              {
+                "id": "31955",
+                "name": "下車參觀",
+                "duration": 0.5,
+                "brief": "國會大廈位於一個有特殊階梯的廣場，此廣場米開朗基羅曾參與設計，寬廣平緩的階梯方便於馬匹上下。大厦的兩側雕像為羅馬神話中水手的保護神卡斯特（Castor）和坡呂克斯（Pollux）。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.499559,
+              "longitude": -0.124659
+            },
+            "pid": "1_241",
+            "guideId": "234",
+            "nowGuideInfo": {
+              "id": "234",
+              "name": "參觀(含門票)",
+              "duration": 2,
+              "brief": "國會大廈是世界最大的哥德式建筑物之一，矗立於泰唔士河畔，氣勢雄偉，外貌典雅。國會大廈內有1200間房間，自13世紀以來，此處便是英國國會開會之處，也同時兼為國王宮殿。建議遊客可從兩個方向欣賞國會大廈外觀，視野最棒。一是站在西敏橋上，另外也可以從位於泰晤士河南岸的蘭貝斯宮遠眺。"
+            },
+            "latitude": 51.499559,
+            "longitude": -0.124659
+          },
+          {
+            "category": "4",
+            "id": "239",
+            "starttime": "1530",
+            "endtime": "1630",
+            "packageType": null,
+            "name": "西敏寺",
+            "thumbnail": "https://photopdm.liontravel.com/239/西敏寺.jpg",
+            "isFavorite": false,
+            "mode": "1",
+            "duration": 60,
+            "nowGuide": "232",
+            "startLongitude": -0.127299,
+            "startLatitude": 51.499305,
+            "endLongitude": -0.127299,
+            "endLatitude": 51.499305,
+            "guideList": [
+              {
+                "id": "232",
+                "name": "參觀(含門票)",
+                "duration": 1,
+                "brief": "是一座位於倫敦市中心西敏市區的大型哥德式建築風格的教堂，一直是英國君主（從英格蘭、不列顛到大英國協時期）安葬或加冕登基的地點。1987年被列為世界文化遺產。"
+              }
+            ],
+            "poiList": null,
+            "title": null,
+            "addr": null,
+            "astarttime": null,
+            "aendtime": null,
+            "dispatch": 0,
+            "contact": null,
+            "phone": null,
+            "desc": null,
+            "type": "poi",
+            "off": null,
+            "location": {
+              "latitude": 51.499305,
+              "longitude": -0.127299
+            },
+            "pid": "1_239",
+            "guideId": "232",
+            "nowGuideInfo": {
+              "id": "232",
+              "name": "參觀(含門票)",
+              "duration": 1,
+              "brief": "是一座位於倫敦市中心西敏市區的大型哥德式建築風格的教堂，一直是英國君主（從英格蘭、不列顛到大英國協時期）安葬或加冕登基的地點。1987年被列為世界文化遺產。"
+            },
+            "latitude": 51.499305,
+            "longitude": -0.127299
+          }
+        ]
+      }
+    ],
+    "flight": {
+      "depart": [
+        {
+          "airlineName": "BR長榮航空",
+          "airplaneName": "BR087",
+          "airlineThumbnail": "https://updmexapi.api.liontravel.com/photo/airlines/BR.png",
+          "from": {
+            "portId": "TPE",
+            "port": "桃園國際機場",
+            "portcity": "台北市",
+            "latitude": 25.079593,
+            "longitude": 121.234078,
+            "date": "2018-06-10",
+            "time": "23:40:00"
+          },
+          "to": {
+            "portId": "CDG",
+            "port": "戴高樂機場",
+            "portcity": "巴黎市",
+            "latitude": 49.009944,
+            "longitude": 2.547066,
+            "date": "2018-06-11",
+            "time": "07:30:00"
+          },
+          "duration": 890,
+          "timezone": "+1",
+          "distance": {
+            "routId": 0,
+            "value": 32.6,
+            "time": 30
+          }
+        }
+      ],
+      "back": [
+        {
+          "airlineName": "BR長榮航空",
+          "airplaneName": "BR068",
+          "airlineThumbnail": "https://updmexapi.api.liontravel.com/photo/airlines/BR.png",
+          "from": {
+            "portId": "LHR",
+            "port": "倫敦希斯洛機場",
+            "portcity": "希靈登",
+            "latitude": 51.470022,
+            "longitude": -0.454296,
+            "date": "2018-06-16",
+            "time": "21:35:00"
+          },
+          "to": {
+            "portId": "TPE",
+            "port": "桃園國際機場",
+            "portcity": "台北市",
+            "latitude": 25.079593,
+            "longitude": 121.234078,
+            "date": "2018-06-17",
+            "time": "21:15:00"
+          },
+          "duration": 940,
+          "timezone": "+1",
+          "distance": {
+            "routId": 0,
+            "value": 13.4,
+            "time": 32
+          }
+        }
+      ],
+      "breturn": [
+        {
+          "airlineName": "BR長榮航空",
+          "airplaneName": "BR068",
+          "airlineThumbnail": "https://updmexapi.api.liontravel.com/photo/airlines/BR.png",
+          "from": {
+            "portId": "LHR",
+            "port": "倫敦希斯洛機場",
+            "portcity": "希靈登",
+            "latitude": 51.470022,
+            "longitude": -0.454296,
+            "date": "2018-06-16",
+            "time": "21:35:00"
+          },
+          "to": {
+            "portId": "TPE",
+            "port": "桃園國際機場",
+            "portcity": "台北市",
+            "latitude": 25.079593,
+            "longitude": 121.234078,
+            "date": "2018-06-17",
+            "time": "21:15:00"
+          },
+          "duration": 940,
+          "timezone": "+1",
+          "distance": {
+            "routId": 0,
+            "value": 13.4,
+            "time": 32
+          }
+        }
+      ]
+    },
+    "title": "ML英法東方快車  (來源:主題)",
+    "departDate": "2018/06/10",
+    "days": "8",
+    "flightTraffic": {}
+  }

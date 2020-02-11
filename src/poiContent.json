@@ -1,0 +1,39 @@
+{
+    "id": 21890,
+    "name": "Hotel Mercure Paris Centre Tour Eiffel",
+    "en_name": "Hotel Mercure Paris Centre Tour Eiffel",
+    "isFavorite": false,
+    "latitude": "48.854866",
+    "longitude": "2.292321",
+    "address": "20 Rue Jean Rey， 75015 Paris， 法國",
+    "phone": "33825801717",
+    "time": "00:00-24:00",
+    "img": [
+      {
+        "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+      }
+    ],
+    "guideList": [
+      {
+        "id": 24659,
+        "name": "住宿-住宿含早",
+        "serviceTimeStart": "1700",
+        "serviceTimeEnd": "0900",
+        "duration": "480.0",
+        "brief": "Mercure Paris Centre Tour Eiffel酒店距離Bir Hakeim Metro地鐵站有2分鐘路程。香榭麗舍大街、凱旋門和Branly Museum博物館。",
+        "startLongitude": "2.292321",
+        "startLatitude": "48.854866",
+        "endLongitude": "2.292321",
+        "endLatitude": "48.854866",
+        "startCity": "巴黎市",
+        "endCity": "巴黎市"
+      }
+    ],
+    "relativePoi": null,
+    "key": "1_21890",
+    "thumbnail": [
+      {
+        "img": "https://updmexapi.api.liontravel.com/photo/120.jpg"
+      }
+    ]
+  }
