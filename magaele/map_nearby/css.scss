@@ -1,0 +1,84 @@
+/**
+ * Import core mixins, variables, or others
+ */
+/**
+ * Define your classname
+ */
+$classname: 'map_nearby';
+/**
+ * Start your css code
+ * 1. 請在您模組的所有selector都要以模組的classname為前綴名稱
+ * 2. 在設計RWD時，請在每個selector內加上media query，而不是在media query內有selector
+ * 3. 下media query時請依手機優先的設計方法來設計
+ */
+.#{$classname} {
+    // style on phone device
+    display: block;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    z-index: 1002;
+    width: 90%;
+    height: 90%;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding-left: 290px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px #ccc;
+    .cityBlock{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 290px;
+        height: 100%;
+        overflow-y: auto;
+        .title{
+            padding: 20px 10px;
+            // border-bottom: 2px solid #EFEFEF;
+            font-size: 18px;
+            .markRed{
+                color: red;
+            }
+        }
+        .cityList {
+            ul{
+                padding: 0px;
+                margin: 0px;
+                li{
+                    padding: 15px 10px;
+                    font-size: 18px;
+                    border-bottom: 2px solid #EFEFEF;
+                    cursor: pointer;
+                    span.num{
+                        display: inline-block;
+                        background-color: #F4A385;
+                        color: #FFF;
+                        opacity: 0.7;
+                        border-radius: 15px;
+                        text-align: center;
+                        width: 20px;
+                        height: 20px;
+                        line-height: 22px;
+                        font-size: 12px;
+                        margin-right: 10px
+                    }
+                    
+                }
+                li:hover{
+                    background: #EFEFEF;
+                    span.num{
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
+    .nearByCityMapBlock{
+        width: 900px;
+        height: 100%;
+        .google{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
